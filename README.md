@@ -1,14 +1,12 @@
-#  airbnb-main
+## Airbnb Redesign
 
-This template should help get you started developing with Vue 3 in Vite.
+This project is a redesign of the Airbnb interface, developed using Vue js.
 
-## Recommended IDE Setup
+[Live Demo](https://airbnb-redesign-theta.vercel.app)
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+### Demo screenshot
 
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+![Capturar](https://github.com/user-attachments/assets/0abedc36-e366-45bd-b30e-e793e3f6dbfe)
 
 ## Project Setup
 
