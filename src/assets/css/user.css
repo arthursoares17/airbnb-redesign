@@ -1,0 +1,83 @@
+/**
+  * START USER *
+**/
+
+.header__user {
+  position: relative;
+  display: flex;
+}
+
+.header__button {
+  background-color: transparent;
+  border: none;
+}
+
+.header__image {
+  height: 40px;
+}
+
+.header__profile {
+  position: absolute;
+  top: 45px;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--color-neutral-1);
+  border-radius: 10px;
+  box-shadow: var(--box-shadow);
+  width: 190px;
+  z-index: 100;
+}
+
+.header__link {
+  display: flex;
+  align-items: center;
+  color: var(--color-neutral-7);
+  font-size: 14px;
+  padding: 12px 16px;
+  gap: 10px;
+}
+
+.header__link:hover {
+  color: var(--color-shade-2);
+  background-color: var(--color-neutral-2);
+}
+
+.header__link i {
+  font-size: 18px;
+}
+
+.header__link--top {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.header__link--bottom {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.header__link--user {
+  cursor: default;
+  color: var(--color-shade-2);
+}
+
+.header__link--user:hover {
+  background-color: transparent;
+}
+
+.header__link--logout {
+  color: var(--color-primary-1);
+}
+
+.header__link--logout:hover {
+  color: var(--color-primary-1);
+}
+
+.header__divider {
+  border-top: 1px solid var(--border-color);
+}
+
+/**
+  * END USER *
+**/
