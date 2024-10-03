@@ -91,6 +91,20 @@
   font-size: 15px;
 }
 
+@media screen and (max-width: 768px) {
+  .search__bar {
+    width: 345px;
+  }
+
+  .search__date label,
+  .search__guest label,
+  .search__date input,
+  .search__guest input,
+  .search__divider {
+    display: none;
+  }
+}
+
 /**
   * END SEARCH *
 **/
