@@ -135,4 +135,24 @@
       background-color: var(--skeleton-background-1);
     }
   }
+
+  @media screen and (max-width: 768px) {
+    .skeleton__search-bar {
+      width: 345px;
+    }
+
+    .skeleton__search-bar form {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+    }
+
+    .skeleton__date-label,
+    .skeleton__guest-label,
+    .skeleton__date-input,
+    .skeleton__guest-input,
+    .skeleton__divider {
+      display: none;
+    }
+  }
 </style>
